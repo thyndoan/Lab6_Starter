@@ -103,5 +103,6 @@ function initFormHandler() {
     localStorage.clear();
     // B13. TODO - Delete the contents of <main>
     document.querySelector("main").innerHTML = "";
+    form.reset();
   });
 }
